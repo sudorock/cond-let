@@ -1,10 +1,17 @@
 # cond-let
 
-A Clojure library designed to ... well, that part is up to you.
+A cond-let macro for Clojure
 
 ## Usage
 
-FIXME
+Example:
+
+```
+(cond-let
+ [binding (func args)] binding
+ (predicate? args) exp
+ :else "I have reached the else part")
+```
 
 ## License
 
