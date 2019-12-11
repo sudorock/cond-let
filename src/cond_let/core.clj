@@ -10,5 +10,3 @@
                                 (let [~form tmp#] ~exp)
                                 (cond-let ~@rmn))))
                          `(if ~cnd-bnd ~exp (cond-let ~@rmn)))))
-
-(#(inc %1) 90)
